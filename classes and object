@@ -1,0 +1,22 @@
+//constructor and its type....
+class person
+{
+    public:
+    person()
+    {
+        cout<<"this is default "<<endl;
+    }
+    person(int a)
+    {
+        cout<<"this is parameterised"<<" "<< a<<endl;
+    }
+    person(char b)
+    {
+        cout<<"this is char type"<<" "<<b<<endl;
+    }
+    
+};
+
+int main() {
+person p1('v');
+}
