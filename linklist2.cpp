@@ -1,3 +1,4 @@
+// taking user input
 class node{
     public:
     int data;
