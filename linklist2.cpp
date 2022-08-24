@@ -33,6 +33,9 @@ int main() {
                 tail=temp;
             
         }
-        cout<<val<<endl;
+    }
+    while(head!=0)
+    {
+        cout<<head->data<<endl;
     }
 }
